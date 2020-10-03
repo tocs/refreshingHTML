@@ -1,0 +1,18 @@
+
+Very simple Python to write a new HTML page every few seconds and
+the HTML tag "<meta>" used to make the browser reload the HTML.
+
+The time stamp in the HTML reflects when Python updated the page.
+Python updates the page at a random number (1 to 15) seconds.
+
+The HTML page has the tag "<meta http-equiv="refresh" content="5">" in it.
+That tells the browser to refresh the page every 5 seconds.
+
+Since python is updating the page every now and again the time will be 
+updated in the browser when the HTML page gets updated.
+
+Use:
+1. Put the "refreshingPage.html" python script in a directory.
+2. Run "python refreshingPage.html" at the command prompt.
+3. Open "refreshingPage.html" in a browser.
+4. Watch the HTML update every now and again.
